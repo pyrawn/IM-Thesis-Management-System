@@ -1,0 +1,97 @@
+/* Paleta personalizada */
+:root {
+  --morado: #6f42c1;
+  --morado-oscuro: #563d7c;
+  --naranja: #fd7e14;
+  --negro: #212529;
+  --gris-claro: #f8f9fa;
+  --blanco: #ffffff;
+}
+
+/* Fondo general */
+body {
+  background-color: var(--gris-claro);
+  color: var(--negro);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Títulos */
+h1, h2, h3 {
+  color: var(--morado-oscuro);
+  margin-bottom: 20px;
+}
+
+/* Contenedor principal */
+.container {
+  padding-top: 20px;
+  padding-bottom: 40px;
+  background-color: var(--blanco);
+  border-radius: 10px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.05);
+}
+
+/* Badges (etiquetas) */
+.badge {
+  font-size: 1rem;
+  padding: 0.6em 1em;
+  background-color: var(--morado);
+  color: #fff;
+  border-radius: 20px;
+  transition: 0.3s;
+  cursor: pointer;
+}
+.badge:hover {
+  background-color: var(--morado-oscuro);
+}
+
+/* Cards */
+.card {
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+/* Botones */
+.btn {
+  border-radius: 8px;
+  transition: 0.2s;
+}
+.btn:hover {
+  transform: scale(1.02);
+}
+.btn-primary {
+  background-color: var(--morado);
+  border-color: var(--morado-oscuro);
+}
+.btn-primary:hover {
+  background-color: var(--morado-oscuro);
+}
+.btn-outline-light {
+  color: var(--blanco);
+  border-color: var(--blanco);
+}
+.btn-outline-light:hover {
+  background-color: var(--blanco);
+  color: var(--morado);
+}
+.btn-warning {
+  background-color: var(--naranja);
+  border-color: var(--naranja);
+  color: #fff;
+}
+.btn-warning:hover {
+  background-color: #e96a00;
+}
+
+/* Navbar */
+.navbar {
+  background-color: var(--morado);
+}
+.navbar .nav-link.active,
+.navbar .nav-link:hover {
+  color: var(--naranja) !important;
+}
+.navbar .navbar-brand {
+  font-weight: bold;
+  font-size: 1.3rem;
+}
