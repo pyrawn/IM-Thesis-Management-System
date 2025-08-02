@@ -1,0 +1,15 @@
+Home
+├── Explorar tesis
+│   ├── Filtro por año
+│   ├── Filtro por tema
+│   ├── Filtro por autor
+│   └── Vista de detalles
+│       └── Enlace externo / Descarga
+├── Buscar
+├── Etiquetas
+├── Recientes / Populares
+├── Acerca de
+└── Panel Admin (privado)
+    ├── Añadir
+    ├── Editar
+    └── Eliminar
